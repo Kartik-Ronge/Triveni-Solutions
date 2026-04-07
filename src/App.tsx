@@ -8,7 +8,7 @@ import Contact from './pages/Contact';
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/Triveni-Solutions">
       <div className="min-h-screen flex flex-col bg-background selection:bg-primary/30 selection:text-primary">
         <Navbar />
         <main className="flex-grow">
