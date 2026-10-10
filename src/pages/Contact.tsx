@@ -1,5 +1,6 @@
 import { motion } from 'motion/react';
-import { Mail, Phone, MapPin, Clock, Send, ArrowRight } from 'lucide-react';
+import { Mail, Phone, MapPin, Clock, ArrowRight } from 'lucide-react';
+import { ContactFormSection } from '../components/sections/ContactFormSection';
 
 export default function Contact() {
   return (
@@ -18,52 +19,7 @@ export default function Contact() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
           {/* Form */}
           <div className="lg:col-span-7">
-            <div className="bg-surface-bright rounded-2xl p-10 md:p-16 relative overflow-hidden border border-white/5">
-              <div className="absolute -top-24 -right-24 w-64 h-64 bg-primary/5 rounded-full blur-3xl"></div>
-              
-              <form className="space-y-10 relative z-10">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-                  <div className="space-y-3">
-                    <label className="text-[10px] font-display font-bold text-slate-500 uppercase tracking-widest">Name</label>
-                    <input 
-                      type="text" 
-                      placeholder="John Doe"
-                      className="w-full bg-background border-none rounded-lg px-6 py-5 focus:ring-2 focus:ring-primary/50 text-on-background placeholder:text-slate-700 transition-all"
-                    />
-                  </div>
-                  <div className="space-y-3">
-                    <label className="text-[10px] font-display font-bold text-slate-500 uppercase tracking-widest">Email</label>
-                    <input 
-                      type="email" 
-                      placeholder="john@example.com"
-                      className="w-full bg-background border-none rounded-lg px-6 py-5 focus:ring-2 focus:ring-primary/50 text-on-background placeholder:text-slate-700 transition-all"
-                    />
-                  </div>
-                </div>
-
-                <div className="space-y-3">
-                  <label className="text-[10px] font-display font-bold text-slate-500 uppercase tracking-widest">Phone Number</label>
-                  <input 
-                    type="tel" 
-                    placeholder="+91 00000 00000"
-                    className="w-full bg-background border-none rounded-lg px-6 py-5 focus:ring-2 focus:ring-primary/50 text-on-background placeholder:text-slate-700 transition-all"
-                  />
-                </div>
-
-                <div className="space-y-3">
-                  <label className="text-[10px] font-display font-bold text-slate-500 uppercase tracking-widest">Message</label>
-                  <textarea 
-                    rows={5}
-                    placeholder="How can our surveillance experts help you?"
-                    className="w-full bg-background border-none rounded-lg px-6 py-5 focus:ring-2 focus:ring-primary/50 text-on-background placeholder:text-slate-700 transition-all resize-none"
-                  ></textarea>
-                </div>
-
-                <button className="w-full md:w-auto px-12 py-5 bg-gradient-to-r from-primary to-primary/80 text-background font-display font-bold rounded-lg hover:opacity-90 active:scale-95 transition-all shadow-lg shadow-primary/20 flex items-center justify-center gap-3">
-                  SEND TRANSMISSION <Send className="w-4 h-4" />
-                </button>
-              </form>
-            </div>
+            <ContactFormSection />
 
             <div className="mt-10 flex items-center gap-4 glass-card px-8 py-5 rounded-full border border-white/5 w-fit">
               <div className="relative flex h-3 w-3">

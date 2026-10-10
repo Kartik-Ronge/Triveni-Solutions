@@ -6,12 +6,14 @@
   "homepage": "https://Kartik-Ronge.github.io/Triveni-Solutions",
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",
+    "dev:backend": "cd backend && mvn spring-boot:run",
     "build": "vite build",
+    "build:backend": "cd backend && mvn clean package -DskipTests",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "clean": "rm -rf dist",
-    "lint": "tsc --noEmit"
+    "lint": "npx -p typescript tsc --noEmit"
   },
   "dependencies": {
     "@google/genai": "^1.29.0",

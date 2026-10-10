@@ -1,0 +1,9 @@
+C:\Triveni-Solutions\backend\src\main\java\com\triveni\solutions\config\CorsConfig.java
+C:\Triveni-Solutions\backend\src\main\java\com\triveni\solutions\controller\ContactController.java
+C:\Triveni-Solutions\backend\src\main\java\com\triveni\solutions\controller\HealthController.java
+C:\Triveni-Solutions\backend\src\main\java\com\triveni\solutions\dto\ApiResponse.java
+C:\Triveni-Solutions\backend\src\main\java\com\triveni\solutions\dto\ContactRequest.java
+C:\Triveni-Solutions\backend\src\main\java\com\triveni\solutions\entity\ContactInquiry.java
+C:\Triveni-Solutions\backend\src\main\java\com\triveni\solutions\repository\ContactInquiryRepository.java
+C:\Triveni-Solutions\backend\src\main\java\com\triveni\solutions\service\ContactService.java
+C:\Triveni-Solutions\backend\src\main\java\com\triveni\solutions\TriveniApplication.java

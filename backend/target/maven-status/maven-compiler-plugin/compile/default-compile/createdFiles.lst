@@ -1,0 +1,10 @@
+com\triveni\solutions\service\ContactService.class
+com\triveni\solutions\controller\HealthController.class
+com\triveni\solutions\controller\ContactController.class
+com\triveni\solutions\dto\ApiResponse.class
+com\triveni\solutions\repository\ContactInquiryRepository.class
+com\triveni\solutions\dto\ContactRequest.class
+com\triveni\solutions\config\CorsConfig.class
+com\triveni\solutions\config\CorsConfig$1.class
+com\triveni\solutions\entity\ContactInquiry.class
+com\triveni\solutions\TriveniApplication.class
